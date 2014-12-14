@@ -21,7 +21,7 @@ function multi_autoloader($class) {
 		$file = ROOT . DS . $value . DS . strtolower($class) . '.class.php';
 			
 			if ( file_exists($file) ) {
-                   include ($file);
+                            include ($file);
 			}
 			else {
 				
